@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Facebook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"
+        alt="Logo"
+      />
+    </header>
+    <main>
+      <aside></aside>
+
+      <div class="page-content"></div>
+
+      <aside></aside>
+    </main>
+
+    <template id="post-template">
+      <article class="post">
+        <div class="post__header">
+          <div class="post__author">
+            <img class="post__author-img" src="" alt="" />
+            <div class="post__author-info">
+              <h4 class="post__author-name"></h4>
+              <time class="post__time"></time>
+            </div>
+          </div>
+        </div>
+        <div class="post__content"></div>
+        <div class="post__image"></div>
+        <a class="post__toggle-comments" href="">Commenti</a>
+        <div class="post__comments d-none">
+          <ul></ul>
+          <form class="post__comments-add" action="">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="3"
+              placeholder="Scrivi un commento..."
+            ></textarea>
+            <button type="submit">
+              <img src="images/send.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </article>
+    </template>
+
+    <template id="comment-template">
+      <li class="comment">
+        <div class="comment__author-img">
+          <img src="" alt="" />
+        </div>
+        <div class="comment__message">
+          <h4 class="comment__author-name"></h4>
+          <p></p>
+        </div>
+      </li>
+    </template>
+
+    <script src="js/script.js" charset="utf-8"></script>
+  </body>
+</html>
