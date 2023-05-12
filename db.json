@@ -25,12 +25,40 @@
   ],
   "comments": [
     {
+      "id": 1,
       "postId": 1,
       "author": {
         "name": "Andrea",
         "avatar": "https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"
       },
       "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "author": {
+        "name": "Francesca",
+        "avatar": "https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "postId": "1",
+      "author": {
+        "name": "Samuele Madrigali",
+        "avatar": "https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"
+      },
+      "content": "Ciao 😎",
+      "id": 3
+    },
+    {
+      "postId": "1",
+      "author": {
+        "name": "Samuele Madrigali",
+        "avatar": "https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512"
+      },
+      "content": "Bel Post! 🥳",
+      "id": 4
     }
   ]
 }

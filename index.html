@@ -46,8 +46,9 @@
         <div class="post__comments d-none">
           <ul></ul>
           <form class="post__comments-add" action="">
+            <input type="hidden" name="post-id" value="" />
             <textarea
-              name=""
+              name="text"
               id=""
               cols="30"
               rows="3"
@@ -68,11 +69,11 @@
         </div>
         <div class="comment__message">
           <h4 class="comment__author-name"></h4>
-          <p></p>
+          <p class="comment__text"></p>
         </div>
       </li>
     </template>
 
-    <script src="js/script.js" charset="utf-8"></script>
+    <script type="module" src="js/controller.js" charset="utf-8"></script>
   </body>
 </html>
